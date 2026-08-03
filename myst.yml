@@ -53,6 +53,8 @@ project:
             children:
               - file: content/linear-algebra-01.ipynb 
                 title: Lengths and Dot product
+              - file: content/linear-algebra-02.ipynb 
+                title: Matrices
           - title: Cryptography
             children:
               - file: content/cryptography-01.ipynb
