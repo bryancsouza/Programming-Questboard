@@ -76,7 +76,6 @@ project:
               - file: content/cryptography-02-landing.md
               - file: content/cryptography-02-sutayta.ipynb
                 hidden: true
-
               - file: content/cryptography-03-landing.md
               - file: content/cryptography-03-genevieve.ipynb
                 hidden: true
@@ -88,6 +87,8 @@ project:
           - title: Math Puzzles
             children:
               - file: content/math-puzzles-01.ipynb 
+                title: The Monty Hall Problem
+              - file: content/math-puzzles-02.ipynb 
                 title: Dominoes on a Chessboard
           
                 
