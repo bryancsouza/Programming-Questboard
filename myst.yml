@@ -4,14 +4,29 @@ version: 1
 project:
   id: b3daadf3-12be-4ed8-a44b-70fc4a39ab9b
   title: Programming Quests
+  abstract: Exercises for becoming an awesome programmer
+  
   # plugins:7
   #   - plugins/pyodide-editable/pyodide-editable.mjs
   exports:
-      - format: typst
-        template: https://github.com/myst-templates/plain_typst_book.git
-        output: exports/book.pdf
-        id: output-pdf
+    - format: pdf
+      template: lapreprint-typst
+      exclude:
+        - content/cryptography-02-sutaya.ipynb
+        - content/cryptography-03-genevieve.ipynb
+        - content/cryptography-credits-aacoltfp.ipynb
 
+      articles: 
+        - content/index.md
+        - content/a-study-with-strings.md
+        - content/linear-algebra-01.ipynb
+        - content/linear-algebra-02.ipynb
+        - content/neuro-signal-01.ipynb
+        - content/cryptography-01.ipynb
+        - content/math-puzzles-01.ipynb
+      output: exports/programming-quests.pdf
+      id: programming-quests-pdf
+      
   
   license:
     code: GPL-3.0-or-later
@@ -34,7 +49,7 @@ project:
         - Software
         - Writing – original draft
         - Writing – review & editing
-        
+  author: Bryan Souza
   github: https://github.com/bryancsouza/Programming-Quests
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   
@@ -83,7 +98,7 @@ site:
 
   nav:
     - title: Home
-      url: https://bryancsouza.github.io/Programming-Questboard/
+      url: https://bryancsouza.github.io/Programming-Quests/
   options:
     favicon: ./.thumbnails/PythonScroll.png
     logo: ./.thumbnails/PythonScroll.png
@@ -93,9 +108,9 @@ site:
   
   actions:
       - title: PDF
-        url: ./exports/book.pdf
+        url: ./exports/programming-quests.pdf
   thumbnail: ./.thumbnails/PythonScroll.png
-    
+
 
 
 
