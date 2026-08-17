@@ -8,7 +8,7 @@ This chapter will help you get proficient with str manipulations in Python. To s
 
 ## Part 1
 
-The folder {download}`./A Study with Strings.zip` has multiple text files with the chapters of a mystery book ("A study in scarlet" by Arthur Conan Doyle). Each file have undergone a tranformation in which some characters of the text were changed. See below the list of all transformations:
+The folder {download}`./resources/A Study with Strings.zip` has multiple text files with the chapters of a mystery book ("A study in scarlet" by Arthur Conan Doyle). Each file have undergone a tranformation in which some characters of the text were changed. See below the list of all transformations:
 
 - Chapter 1: all lower case characters became upper case, and vice-versa.
 - Chapter 2: the characters 's', 't', 'r', 'i', 'n' and 'g' swapped between lower and upper case. That is, lower case characters became upper case, and vice-versa.
