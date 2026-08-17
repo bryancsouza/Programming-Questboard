@@ -64,6 +64,8 @@ project:
             children:
               - file: content/neuro-signal-01.ipynb 
                 title: Filtering and data manipulation
+              - file: content/neuro-signal-02.ipynb 
+                title: Event Related Potentials
           - title: Linear Algebra
             children:
               - file: content/linear-algebra-01.ipynb 
